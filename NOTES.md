@@ -1,5 +1,17 @@
 # Notes
 
+- Keep belts tight
+- Try not to touch the print bed, the oils on your skin can affect adhesion
+  - Clean with soap and water, or isopropyl alcohol if you don't have time
+- Keep filament in a plastic bag with a desiccant pack when you're not using it
+- When changing nozels
+  - Heat the hotend and remove the filament
+  - Remove the previous nozel
+  - Back out the bowden tube
+  - Screw the new one in but not all the way
+  - Push the bowden tube back in and secure
+  - Finish tightening the nozel
+
 ## Main Board
 
 - Edit `Marlin/Configuration.h` and `Marlin/Configuration_adv.h` to configure the firmware
