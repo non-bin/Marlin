@@ -17,8 +17,8 @@
 - Edit `Marlin/Configuration.h` and `Marlin/Configuration_adv.h` to configure the firmware
 - Use VSCode with `PlatformIO` and `Auto Build Marlin` extension
 - Open ABM from the left panel, and click `Show ABM Panel`
-- Click `Build` next to `STM32F103RE_creality_xfer (512k)`
-- Copy `.pio\build\STM32F103RE_creality_xfer\firmware-XXXXXXX-XXXXXXX.bin` to the SD card
+- Click `Build` next to `STM32F103RE_creality (512k)`
+- Copy `.pio\build\STM32F103RE_creality\firmware-XXXXXXX-XXXXXXX.bin` to the SD card
 - Delete any other `.bin` files
 - Power off and completly unplug the printer
 - Insert the SD card into the main SD slot
@@ -26,7 +26,7 @@
 
 Config was based off `https://github.com/MarlinFirmware/Configurations/tree/release-2.1.2.4/config/examples/Creality/Ender-3%20V2/CrealityV422/MarlinUI` at `401c149` on Jun 22, 2024
 
-*RE or RC are two different versions of the STM32F103 chip, which dictate the 256/512 firmware size, and you have an RE. standard is standard, xfer enables USB update support (which I can't make work), and Maple is depricated.
+*RE or RC are two different versions of the STM32F103 chip, which dictate the 256/512 firmware size, and you have an RE. standard is standard, xfer enables USB update support (which I can't make work, and isn't compatible with MeatPack), and Maple is depricated.
 
 Firmware last updated to `a942c9` on Jun 22, 2024
 
