@@ -40,8 +40,8 @@ Firmware last updated to `a942c9` on Jun 22, 2024
 - Unplug and remove the display, then remove the back cover
 - Insert the SD into the slot on the back of the display board
 - Plug the display back in and power on the printer (don't reassemble the back cover yet)
-- The LCD should switch from a blue to an orange blank screen
-- Wait about a minute on the orange LCD screen (just to be safe)
+- The LCD should go blue for a while, then orange to signal it's done
+- If it flashes blue for an instant then gues orange, something is wrong with the update files
 - Power off the printer
 - Remove the microSD card from the LCD’s circuit board, and power on your printer again
 - The LCD should now load your firmware’s new home screen
